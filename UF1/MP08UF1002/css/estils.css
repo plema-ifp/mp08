@@ -1,0 +1,45 @@
+body{
+}
+
+div{
+  background-color: rgb(195, 158, 237);
+  height: 10em;
+  width: 10em;
+  background-position: center;
+  background-size: cover;
+}
+.flotatE{
+  float: left;
+  margin: 0 1em 1em 0;
+  background-image: url(../img/ndb.jpg);
+}
+.flotatR{
+  float: right;
+  margin: 0 0 1em 1em;
+  background-image: url(../img/frutas.jpg);
+}
+.capitular{
+  float: left;
+  margin: 0 0.5em 0.5em 0;
+  background-image: url(../img/cap_p.png);
+  height: 2.8em;
+  width: 2.8em;
+}
+span{
+  color: rgb(135, 168, 109);
+  display: none;
+}
+h2{
+  clear: both;
+}
+.columna{
+  background-color: rgb(151, 160, 238);
+  width: 40%;
+  margin: 0 5%;
+}
+.Izquierda{
+  float: left;
+}
+.Derecha{
+  float: right;
+}

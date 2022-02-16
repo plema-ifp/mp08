@@ -1,0 +1,85 @@
+body{
+background-color: red;
+margin: 0;
+color: #666;
+font-family: Helvetica Neue, sans-serif;
+font-size: 13px;
+}
+h1{
+  margin: 0;
+  text-align: center;
+  width: 390px;
+  padding: 30px;
+}
+p{
+  width: 390px;
+  margin: 0;
+  font-size: 18px;
+  line-height: 22px;
+  padding: 0 30px;
+}
+#menu{
+  height: 40px;
+}
+#coneix{
+  height: 550px;
+  background-image: url(../img/img-hero-full-list.png);
+  background-repeat: no-repeat;
+  background-position: 400px 0;
+}
+#tot{
+  height: 641px;
+  background-image: url(../img/allinone.jpg);
+  background-repeat: no-repeat;
+  background-position: 400px 0;
+}
+#util{
+  height: 500px;
+  color: #CCC;
+  background-image: url(../img/curator-short.png);
+  background-repeat: no-repeat;
+  background-position: 400px 0;
+}
+#rapid{
+  height: 550px;
+  background-image: url(../img/img-hero-full-list.png);
+  background-repeat: no-repeat;
+  background-position: 400px 0;
+}
+#facil{
+  height: 550px;
+  background-image: url(../img/mobile-share.png);
+  background-repeat: no-repeat;
+  background-position: 400px 0;
+}
+#arreu{
+  height: 643px;
+  background-image: url(../img/anywhere.png);
+  background-repeat: no-repeat;
+  background-position: 400px 0;
+}
+#descarrega{
+  height: 200px;
+}
+.cab{
+  background-color: white;
+}
+.verde{
+  background-color: #6C3;
+}
+.blanco{
+  background-color: white;
+}
+.negro{
+  background-color: #333333;
+}
+.gris{
+  background-color: #EEECEE;
+}
+.gris2{
+  background-color: #EEECEE;
+}
+.pie{
+  background-color: #333333;
+  color: #CCC;
+}

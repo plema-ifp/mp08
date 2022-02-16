@@ -1,0 +1,40 @@
+p{
+  background-color: rgb(158, 15, 195);
+}
+div{
+  background-color: rgb(84, 97, 186);
+  font-family: Arial, sans-serif;
+  color: white;
+}
+h2{
+  clear: both;
+}
+.primer{
+  float: left;
+  font-size: 3em;
+  width: 5em;
+  margin: 1em;
+  background-color: rgb(252, 202, 198);
+}
+.segon{
+  background-color: rgb(181, 72, 72);
+  float: left;
+  font-size: 3em;
+  color: white;
+  height: 5em;
+  width: 30%;
+  margin: 1.6%;
+}
+.tercer{
+  background-color: rgb(199, 52, 193);
+  float: left;
+  font-size: 3em;
+  width: 5em;
+  margin: 1em;
+}
+.contenidor{
+  background-color: rgb(102, 181, 43);
+  overflow: hidden;
+  width: 63em;
+  margin: 0 auto;
+}
