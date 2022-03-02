@@ -2,18 +2,41 @@ body{
   margin: auto;
   background: ;
 }
+.cabeza{
+  text-align: center;
+  padding-top: 30px;
+}
+.menu ul li{
+  background: black;
+  color: rgb(155, 126, 167);
+  width: 30%;
+  height: auto;
+  border-radius: 0;
+  position: relative;
+  margin-left: 2%;
+  margin-top: 0;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  font-family: Shadows Into Light, cursive;
+  font-size: 30pt;
+}
+h1{
+  font-family: Sedgwick Ave Display, cursive;
+  font-size: 60pt;
+}
 h4{
   color: rgb(118, 91, 153);
-  font-family: Shadows Into Light, cusive;
-  font-size: 15pt;
+  font-family: Shadows Into Light, cursive;
+  font-size: 20pt;
+  margin-top: -50px;
 }
 h3{
-  background: rgb(155, 126, 167);
+  font-family: Shadows Into Light, cursive;
+  font-size: 30pt;
+  background:rgb(155, 126, 167);
   color: white;
   width: 70%;
   text-align: center;
-  padding-top: 1%;
-  padding-bottom: 1%;
   margin-top: 3%;
   margin-left: 15%;
   border-radius: 15px 15px 0 15px;
@@ -57,7 +80,7 @@ li{
 }
 h2{
 color: white;
-font-family: Shadows Into Light, cusive;
+font-family: Sedgwick Ave Display;
 font-size: 30px;
 margin-top: 30%;
 }
