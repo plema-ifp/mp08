@@ -1,0 +1,66 @@
+body{
+  margin: auto;
+  background: ;
+}
+h4{
+  color: rgb(118, 91, 153);
+  font-family: Shadows Into Light, cusive;
+  font-size: 15pt;
+}
+h3{
+  background: rgb(155, 126, 167);
+  color: white;
+  width: 70%;
+  text-align: center;
+  padding-top: 1%;
+  padding-bottom: 1%;
+  margin-top: 3%;
+  margin-left: 15%;
+  border-radius: 15px 15px 0 15px;
+}
+.uf1{
+  background: url(https://img.freepik.com/foto-gratis/textura-marmol-blanco-natural-papel-tapiz-azulejos-piel-fondo-lujoso_24076-297.jpg?size=626&ext=jpg);
+  background-size: 100%;
+  width: 70%;
+  height: auto;
+  padding-bottom: 5%;
+  margin-left: 15%;
+  border-radius: 15px 15px 0 15px;
+}
+.uf2{
+  background: gray;
+  width: 70%;
+  height: auto;
+  padding-bottom: 5%;
+  margin-left: 15%;
+  border-radius: 15px 15px 0 15px;
+}
+.uf4{
+  background: url(https://img.freepik.com/foto-gratis/textura-marmol-blanco-natural-papel-tapiz-azulejos-piel-fondo-lujoso_24076-297.jpg?size=626&ext=jpg);;
+  background-size: 100%;
+  width: 70%;
+  height: auto;
+  padding-bottom: 5%;
+  margin-left: 15%;
+  border-radius: 15px 15px 0 15px;
+}
+li{
+  background: linear-gradient(350deg, black, rgb(118, 91, 153));
+  height: 200px;
+  width: 200px;
+  border-radius: 30% 30% 0 30%;
+  float: left;
+  margin-left: 30px;
+  margin-top: 30px;
+  list-style: none;
+  text-align: center;
+}
+h2{
+color: white;
+font-family: Shadows Into Light, cusive;
+font-size: 30px;
+margin-top: 30%;
+}
+h2:hover{
+  color: rgb(155, 126, 167);
+}
