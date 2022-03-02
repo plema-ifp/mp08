@@ -1,0 +1,113 @@
+body{
+  font-family: sans-serif;
+  background-color: rgb(93, 184, 165);
+}
+article{
+  margin: 100px;
+  width: 2100px;
+  height: 1000px;
+}
+h2{
+  font-size: 60pt;
+  color: white;
+  background-color: red;
+  width: 700px;
+  text-align: center;
+  margin: auto;
+}
+h3{
+  padding-top: 50px;
+}
+h3, h4, a{
+  text-align: center;
+  color: white;
+  margin-bottom: 10px;
+  clear: both;
+}
+h5{
+  background-position: center;
+  margin: auto;
+  margin-bottom: 20px;
+}
+h6{
+  font-size: 15pt;
+  text-align: center;
+  color: rgb(93, 184, 165);
+  margin: 15px;
+}
+p{
+  margin: 20px;
+  font-size: 11pt;
+  text-align: justify;
+}
+article:nth-child(even) h5{
+  background-image: url(https://play-lh.googleusercontent.com/K0RnQ1HOn5ZZG-qEob5fsYujuGYKPeDKr-Mwhe0xAnN6MjsmTvloXKcO9NJK27HAttg=s360-rw);
+  height: 250px;
+  width: 250px;
+  background-size: 100%;
+}
+article:nth-child(odd) h5{
+  background-image: url(https://play-lh.googleusercontent.com/8KaD5w8-I15GQfqPhGh6_bM0s2QBLm83WC-qsAFJ2Y7dXmfm-g5WhJlFX3Kk3l--kZQ=s360-rw);
+  height: 250px;
+  width: 250px;
+  background-size: 100%;
+}
+div{
+  margin: 10px;
+  width: 655px;
+  height: 330px;
+  float: left;
+}
+img{
+  height: 330px;
+  width: 655px;
+}
+li{
+  list-style: none;
+  display: inline-block;
+  width: 30px;
+  height: 30px;
+  background-size: cover;
+}
+.plataformes{
+  margin-left: 970px;
+}
+.escriptoriwin{
+  background-image: url(https://cdn-icons-png.flaticon.com/512/38/38466.png);
+}
+.escriptorimac{
+  background-image: url(https://cdn-icons-png.flaticon.com/512/731/731985.png);
+}
+.escriptorilin{
+  background-image: url(https://upload.wikimedia.org/wikipedia/commons/thumb/a/ab/Linux_Logo_in_Linux_Libertine_Font.svg/1200px-Linux_Logo_in_Linux_Libertine_Font.svg.png);
+}
+.nuvolweb{
+  background-image: url(https://cdn-icons-png.flaticon.com/512/246/246507.png);
+}
+.mobiland{
+  background-image: url(https://cdn-icons-png.flaticon.com/512/38/38002.png);
+}
+.mobilios{
+  background-image: url();
+}
+.funcionalitats{
+  background-color:  rgb(131, 129, 129);
+  color: white;
+}
+.financament{
+  background-color: rgb(131, 129, 129);
+  color: white;
+}
+.companyia{
+  background-color: rgb(221, 231, 235);
+}
+.alternatives{
+  background-color: rgb(131, 129, 129);
+  color: white;
+}
+.valoracio{
+  background-color: rgb(221, 231, 235);
+  margin: 10px;
+  width: 655px;
+  height: 330px;
+}
