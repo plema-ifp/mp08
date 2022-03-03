@@ -20,15 +20,21 @@ body{
   font-family: Shadows Into Light, cursive;
   font-size: 30pt;
 }
+.menu ul li:hover{
+  background: url(https://img.freepik.com/foto-gratis/textura-marmol-blanco-natural-papel-tapiz-azulejos-piel-fondo-lujoso_24076-297.jpg?size=626&ext=jpg);
+  color: black;
+  background-size: 30%;
+
+}
 h1{
   font-family: Sedgwick Ave Display, cursive;
-  font-size: 60pt;
+  font-size: 80pt;
 }
 h4{
   color: rgb(118, 91, 153);
   font-family: Shadows Into Light, cursive;
   font-size: 20pt;
-  margin-top: -50px;
+  margin-top: -60px;
 }
 h3{
   font-family: Shadows Into Light, cursive;
@@ -60,7 +66,7 @@ h3{
   border-radius: 15px 15px 0 15px;
 }
 .uf4{
-  background: url(https://img.freepik.com/foto-gratis/textura-marmol-blanco-natural-papel-tapiz-azulejos-piel-fondo-lujoso_24076-297.jpg?size=626&ext=jpg);;
+  background: url(https://img.freepik.com/foto-gratis/textura-marmol-blanco-natural-papel-tapiz-azulejos-piel-fondo-lujoso_24076-297.jpg?size=626&ext=jpg);
   background-size: 100%;
   width: 70%;
   height: auto;
@@ -70,9 +76,9 @@ h3{
 }
 li{
   background: linear-gradient(350deg, black, rgb(118, 91, 153));
-  height: 200px;
-  width: 200px;
-  border-radius: 30% 30% 0 30%;
+  height: 250px;
+  width: 250px;
+  border-radius: 40% 40% 40% 40%;
   float: left;
   margin-left: 30px;
   margin-top: 30px;
@@ -83,8 +89,11 @@ h2{
 color: white;
 font-family: Sedgwick Ave Display;
 font-size: 30px;
-margin-top: 30%;
+margin-top: 40%;
 }
 h2:hover{
   color: rgb(155, 126, 167);
+}
+a li:hover{
+  background: linear-gradient(350deg, rgb(118, 91, 153), black);
 }
