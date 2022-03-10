@@ -58,7 +58,7 @@ h3{
   border-radius: 15px 15px 0 15px;
 }
 .uf2{
-  background: gray;
+  background: rgb(148, 146, 149);
   width: 70%;
   height: auto;
   padding-bottom: 5%;
@@ -73,6 +73,7 @@ h3{
   padding-bottom: 5%;
   margin-left: 15%;
   border-radius: 15px 15px 0 15px;
+  margin-bottom: 5%;
 }
 li{
   background: linear-gradient(350deg, black, rgb(118, 91, 153));
@@ -96,4 +97,9 @@ h2:hover{
 }
 a li:hover{
   background: linear-gradient(350deg, rgb(118, 91, 153), black);
+}
+.{
+  width: 70%;
+  background: black;
+  height: auto;
 }
