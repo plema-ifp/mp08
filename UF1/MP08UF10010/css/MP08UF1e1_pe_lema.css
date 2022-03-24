@@ -2,6 +2,8 @@ body{
   background-color: #222;
   font-family: helvetica, sans-serif;
 }
+
+
 #logo{
   border-radius: 0;
   margin-left: 0;
@@ -16,6 +18,7 @@ body{
   top: 0;
   left: 0;
 }
+
 
 div{
   float: left;
