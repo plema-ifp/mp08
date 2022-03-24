@@ -1,174 +1,121 @@
 body{
-  font-family: Helvetica, Sans-serif;
-  background-color: black;
+  background-color: #222;
+  font-family: helvetica, sans-serif;
 }
-.logo{
-  margin: 5px 20px 5px 20px;
+#logo{
+  border-radius: 0;
+  margin-left: 0;
+  max-width: 100%;
+  overflow: hidden;
 }
-.contenedor{
-  clear: both;
-}
-.contenedor2{
-  clear: both;
-  padding-top: 50px;
-}
-.contenedor3{
-  clear: both;
-  padding-top: 50px;
-}
-.contenedor4{
-  clear: both;
-  padding-top: 50px;
-}
-.contenedor5{
-  clear: both;
-  padding-top: 50px;
-}
-li{
-  color: #FFF;
-  display: inline-block;
-}
-p{
-color: #CCC;
-font-size: 11px;
-margin-top: -7px;
-}
-.año{
-  float: left;
-}
-.doc{
-  float: right;
+#torna{
+  height: 50px;
+  padding: 5px 20px;
+  width: 100%;
+  z-index: 2;
+  top: 0;
+  left: 0;
 }
 
+div{
+  float: left;
+}
+a{
+  color: #FFF;
+}
+a:hover{
+  color: #FFF;
+}
+a:active {
+  color: #CCC;
+}
+a {
+  margin-right: 5px;
+}
+
+li{
+  list-style-type: none;
+  margin: 0 0 0 0;
+  display: inline-block;
+  padding: 6px;
+  line-height: 30px;
+}
+ul{
+  padding: 0;
+  display: inline-block;
+  vertical-align: top;
+  margin: 0 0 0 50px;
+  height: 50px;
+}
 h1{
   color: #FFF;
   font-size: 22px;
-
+  font-family: helvetica, sans-serif;
+  margin-left: 20px;
+  clear: both;
 }
 h3{
-  font-size: 14px;
   color: #CCC;
-  margin-top: 270px;
+  font-size: 14px;
+  align-items: center;
+  margin-top: -4px;
+  margin-left: 20px;
 }
-.izquierda{
-  margin: 5px;
+p{
+  color: #CCC;
+  font-size: 11px;
+  margin-left: 20px;
+  float: left;
 }
-.derecha{
+p:last-child {
   float: right;
-  margin: 5px;
 }
-.interessants{
+
+
+.redes{
+  text-align: right;
+  position: relative;
+  left: 1500px;
+}
+.info{
   width: 175px;
-  height: 260px;
-  background-size: cover;
+  margin-left: 20px;
   border-radius: 5px;
-  float: left;
-  margin: 20px 20px 40px 20px;
 }
-#uno{
-  background-image: url("../imatges/1982Koyaanisqatsi.jpg");
+.info:hover{
+  opacity: 50%;
+  z-index: 1;
 }
-#dos{
-  background-image: url("../imatges/2004YTuQueSabes.jpg");
+.dinteresante{
+  margin-top: 50px;
+  z-index: 1;
 }
-#tres{
-  background-image: url("../imatges/2005Earthlings.jpg");
+.ppendientes{
+  float: none;
+  z-index: 1;
 }
-#cuatro{
-  background-image: url("../imatges/2007Helvetica.jpg");
+.ssiguiendo{
+  float: none;
+  z-index: 1;
 }
-#cinco{
-  background-image: url("../imatges/2007Sicko.jpg");
+.dvistos .info{
+  filter: grayscale(100%);
 }
-#seis{
-  background-image: url("../imatges/2005Earthlings.jpg");
+.pvistas{
+  float: none;
+  z-index: 1;
 }
-#seis{
-  background-image: url("../imatges/2008Zeitgeist2.jpg");
+.pvistas .info{
+  filter: grayscale(100%);
 }
-#siete{
-  background-image: url("../imatges/2009ArtAndCopy.jpg");
+.svistas{
+  float: none;
+  z-index: 1;
 }
-#ocho{
-  background-image: url("../imatges/2009Home.jpg");
+.svistas .info{
+  filter: grayscale(100%);
 }
-
-#nueve{
-  background-image: url("../imatges/2009RipARemixManifesto.jpg");
-}
-#diez{
-  background-image: url("../imatges/2010ComprarTirarComprar.jpg");
-}
-#once{
-  background-image: url("../imatges/2010InsideJob.jpg");
-}
-
-
-.vistos{
-  width: 175px;
-  height: 260px;
-  background-size: cover;
-  border-radius: 5px;
-  float: left;
-  margin: 20px 20px 40px 20px;
-}
-#v_cuatro{
-  background-image: url("../imatges/2011LaDoctrinaDeShock.jpg");
-}
-#v_cinco{
-  background-image: url("../imatges/2012SearchingForSugarMan.jpg");
-}
-#v_seis{
-  background-image: url("../imatges/2012TheActOfKilling.jpg");
-}
-#v_siete{
-  background-image: url("../imatges/2013ElEspirituDel45.jpg");
-}
-
-
-.pendientes{
-  width: 175px;
-  height: 260px;
-  background-size: cover;
-  border-radius: 5px;
-  float: left;
-  margin: 20px 20px 40px 20px;
-}
-#p_uno{
-  background-image: url("../imatges/XXXXpeli.jpg");
-}
-#p_dos{
-  background-image: url("../imatges/XXXXpeli.jpg");
-}
-
-
-.vistas{
-  width: 175px;
-  height: 260px;
-  background-size: cover;
-  border-radius: 5px;
-  float: left;
-  margin: 20px 20px 40px 20px;
-}
-#pv_uno{
-  background-image: url("../imatges/quasinegre.png");
-}
-#pv_dos{
-  background-image: url("../imatges/quasinegre.png");
-}
-
-
-.seguint{
-  width: 175px;
-  height: 260px;
-  background-size: cover;
-  border-radius: 5px;
-  float: left;
-  margin: 20px 20px 40px 20px;
-}
-#ss_uno{
-  background-image: url("../imatges/XXXXserie.jpg");
-}
-#ss_dos{
-  background-image: url("../imatges/XXXXserie.jpg");
+.torna{
+  background-color: rgba(34, 34, 34, 0.8);
+  position: fixed;
 }
